@@ -1,0 +1,46 @@
+
+     
+      
+      .v-header {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        color: #fff;
+      }
+
+      .fontku {
+        color: black
+      }
+
+      .btnku, .btn.inverse:hover{color:#FFFFFF; background-color:transparent; border-color:#FFFFFF;}
+      .btnku:hover, .btn.inverse{color:inherit; background-color:#FBAB45; border-color:inherit;}
+      
+      .fullscreen-video-wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 900px;
+        height: 450px;
+        overflow: hidden;
+        margin-left: 30px;
+      }
+      .fullscreen-video-wrap video {
+        min-width: 100%;
+        min-height: 100%;
+      }
+     
+     
+      .section {
+        padding: 20px 0;
+      }
+      .section-b {
+        background: #333;
+        color: #fff;
+      }
+
+      @media(max-width:960px) {
+        .container {
+          padding-left: 3rem;
+          padding-right: 3rem;
+        }
+      }
